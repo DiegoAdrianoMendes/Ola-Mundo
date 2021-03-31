@@ -45,4 +45,40 @@
  - [ ] Tarefa 2
  - [X] Tarefa 3
 
- ![StormTroopCat](https://github.com/DiegoAdrianoMendes/Ola-Mundo/stormtroopocaat.png)
+ [Acesse Meu GitHub](https://github.com/DiegoAdrianoMendes/DiegoAdrianoMendes)
+
+ Número|Nome|Nota
+ ---|---|---
+ 1|Diego|8
+ 2|Marcos|8.89
+ 3|João|7
+ 4|Jose|5.5
+
+ Comando `document.getElementByClass()` do JavaScript
+
+ Trechos de Códigos
+ ```java
+    package numeros;
+
+    import java.util.Scanner;
+    class NumeroPar(){
+        public static void main(){
+            Scanner teclado = new Scanner(System.in);
+            int numero;
+
+            System.out.println("Digite um Número: ");
+            numero  = teclado.nextInt();
+
+            if(numero%2 == 0){
+                System.out.printf("O Número %d é Par", numero);
+            }else{
+                System.out.printf("O Número %d é Impar", numero);
+            }
+
+        }
+    }
+ ```
+
+ Olá, Pequeno Garfanhoto :vulcan_salute:
+
+ [Lista de Emoji](https://github.com/ikatyang/emoji-cheat-sheet)
